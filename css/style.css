@@ -84,7 +84,7 @@ nav ul li a:hover {
     width: 500%;
     margin: 0;
     left: 0;
-    animation: slider 20s ease-out infinite forwards;
+    animation: slider 30s ease-in-out infinite forwards;
 }
 
 .slider figure img{
@@ -113,13 +113,11 @@ nav ul li a:hover {
     }
     75%{
         left: -300%;
-    }
-    85%{
+    } 
+   
+     95%{
         left: -300%;
-    }
-    95%{
-        left: -400%;
-    }
+    } 
     100%{
         left: -400%;
     }
